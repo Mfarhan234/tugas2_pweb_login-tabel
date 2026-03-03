@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Kelas</title>
+    <style>
+        /* CSS akan ditambahkan di sini */
+    </style>
+</head>
+<body>
+    <!-- 1. MEMBUAT TABEL -->
+    <h1>Latihan Kelas</h1>
+    
+    <h2>1. Membuat Tabel</h2>
+    
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr bgcolor = "#3498db" style="color: white;">
+            <th rowspan="2">Nama</th>
+            <th colspan="3">Nilai</th>
+        </tr>
+
+        <tr bgcolor="#3498db" style="color: white;">
+            <th>Kimia</th>
+            <th>Fisika</th>
+            <th>Biologi</th>
+        </tr>
+        <tr>
+            <td>Robby</td>
+            <td>76</td>
+            <td>80</td>
+            <td>81</td>
+        </tr>
+        <tr>
+            <td>Rendi</td>
+            <td>84</td>
+            <td>70</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>Alfian</td>
+            <td>96</td>
+            <td>70</td>
+            <td>71</td>
+        </tr>
+    </table>
+
+    <!-- 2. MEMBUAT LOGIN -->
+    <h2>2. Membuat Login</h2>
+    
+    <fieldset style="width: 400px; margin-top: 20px; padding: 20px; border: 1px solid #ccc;">
+        <legend style="font-size: 16px; font-weight: bold; color: #000000;">Login</legend>
+        <form>
+            <p style="margin: 15px 0;">
+                <label style="display: inline-block; width: 100px; font-weight: bold; color: #000000;">Username:</label>
+                <input type="text" name="username" placeholder="petanikode" style="padding: 5px; width: 180px; border: 1px solid #ccc;">
+            </p>
+            <p style="margin: 15px 0;">
+                <label style="display: inline-block; width: 100px; font-weight: bold; color: #000000;">Password:</label>
+                <input type="password" name="password" style="padding: 5px; width: 180px; border: 1px solid #3498db; background-color: #e3f2fd;">
+            </p>
+            <p style="margin: 15px 0;">
+                <input type="checkbox" name="remember"> 
+                <label style="color: #000000;">Remember me</label>
+            </p>
+            <p style="margin: 15px 0;">
+                <button type="submit" style="padding: 8px 20px; background-color: #e0e0e0; border: 1px solid #999; border-radius: 3px; cursor: pointer; color: #666;">Login</button>
+            </p>
+        </form>
+    </fieldset>
+
